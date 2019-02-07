@@ -1,12 +1,12 @@
 {
-  "name": "dwerder-graphite",
-  "version": "7.3.0",
-  "source": "https://github.com/echocat/puppet-graphite.git",
+  "name": "backstop-graphite",
+  "version": "7.3.0a",
+  "source": "https://github.com/backstop/puppet-graphite.git",
   "author": "Daniel Werdermann",
   "license": "Apache-2.0",
   "summary": "Installs and configures graphite, carbon (caches,relays,aggregators) and whisper",
-  "project_page": "https://github.com/echocat/puppet-graphite",
-  "issues_url": "https://github.com/echocat/puppet-graphite/issues",
+  "project_page": "https://github.com/backstop/puppet-graphite",
+  "issues_url": "https://github.com/backstop/puppet-graphite/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 4.6.0 < 5.0.0"}
   ],
