@@ -1,5 +1,9 @@
 # graphite
 
+## Backstop Fork
+
+We forked this from the original repo to update the log rotation script this module uses. We submitted a pull request to the maintainer for this but the project appears to be abandoned.
+
 #### Table of Contents
 
 1. [Overview - What is the graphite module?](#overview)
