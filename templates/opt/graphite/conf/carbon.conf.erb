@@ -259,6 +259,12 @@ ENABLE_TAGS = False
 
 <%end; end -%>
 [relay]
+LOG_DIR = <%= scope.lookupvar('graphite::storage_dir_REAL') + '/log/carbon-relay' %>/
+
+<% unless [:undef, nil].include? scope.lookupvar('graphite::gr_storage_dir') -%>
+PID_DIR = <%= scope.lookupvar('graphite::gr_storage_dir') %>
+<% end -%>
+
 # Enable daily log rotation. If disabled, a kill -HUP can be used after a manual rotate
 ENABLE_LOGROTATION = True
 
